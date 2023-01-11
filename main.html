@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteBites - Food Ordering Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <img height="35px" src="./shopping-basket.gif" alt="logo" class="Animatedlogo">
+    <a href="#home" class="logo" style="color: #db3056;" style="color: #db3056;"> TasteBites </a>
+
+    <nav class="navbar">
+        <a href="main.html">home</a>
+        <!--
+        <a href="#features">features</a>
+        -->
+        <a href="products.html" target="_blank">products</a>
+        <a href="categories.html" target="_blank">categories</a>
+        <a href="review.html" target="_blank">about us</a>
+        <a href="blogs.html" target="_blank">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash delete-item-from-cart"></i>
+            <img src="img/Matar-Paneer-1.jpg" alt="">
+            <div class="content">
+                <h3>Matar paneer</h3>
+                <span class="price cart-price"> &#8377 60</span>
+                <span class="quantity">qty : <input type="number" min="1" class="form-control cart-quantity"> kg</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash delete-item-from-cart"></i>
+            <img src="img/ladyfinger.webp" alt="">
+            <div class="content">
+                <h3> Fried - Bhindi</h3>
+                <span class="price cart-price"> &#8377 40</span>
+                <span class="quantity">qty : <input type="number" min="1" class="cart-quantity"> kg</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash delete-item-from-cart"></i>
+            <img src="img/pneer.jpg" alt="">
+            <div class="content">
+                <h3>paneer</h3>
+                <span class="price cart-price"> &#8377 150</span>
+                <span class="quantity">qty : <input type="number" min="1" class="cart-quantity"> kg</span>
+            </div>
+        </div>
+        <!-- <div class="total"> total :  <span class="total-price">Loading..</span> </div> -->
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="index.html" target="_blank">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+    
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for you.</h3>
+        <p>World's Largest online foodmarket.</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> our <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/feature-img-1.png" alt="">
+            <h3>fresh and organic</h3>
+            <p>healthy and organic vegetables delivered at your doorstep anywhere in India.</p>
+            <!-- <a href="#" class="btn">read more</a> -->
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3>free delivery</h3>
+            <p>Get vegetables delivered safely at your doorstep in India</p>
+            <!-- <a href="#" class="btn">read more</a> -->
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3>easy payments</h3>
+            <p>easy payment service with 240+ payment solutions & fraud prevention services.</p>
+            <!-- <a href="#" class="btn">read more</a> -->
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> TasteBites <img height="35px" src="./shopping-basket.gif" alt="logo" class="Animatedlogo"> </h3>
+            <p>India's No.1 grocery brand Registered in Ghaziabad, India.</p>
+            <p> Mail Id - TasteBites@gmail.com </p>
+            <p> Mob - +91 9837805140 </p>
+            <div class="share">
+                <a target="_blank" href="https://www.facebook.com/" class="fab fa-facebook-f"> </a>
+                <a target="_blank" href="https://twitter.com/i/flow/login" class="fab fa-twitter"></a>
+                <a target="_blank" href="https://www.instagram.com/" class="fab fa-instagram"></a>
+                <a target="_blank" href="https://www.linkedin.com/signup" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact Details</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91 9759917775 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +91 9625786096 </a>
+            <a target="_blank" href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="links"> <i class="fas fa-envelope"></i> TasteBites@gmail.com </a>
+            <a target="_blank" href="https://www.google.com/maps/place/Sector+9,+Gurugram,+Haryana+122001/@28.4451308,77.0130561,12z/data=!4m5!3m4!1s0x390d19a942b79d9b:0x1347dbfad493a7d3!8m2!3d28.4554726!4d77.0219019" class="links"> <i class="fas fa-map-marker-alt"></i> Ghaziabad, india - 201009</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="products.html" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="review.html" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="blogs.html" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder=" Enter your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> Developed and Designed by  <span> &#169; MKK </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

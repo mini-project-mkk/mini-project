@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteBites - Food Ordering Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <img height="35px" src="./shopping-basket.gif" alt="logo" class="Animatedlogo">
+        <a href="#home" class="logo" style="color: #db3056;" style="color: #db3056;"> TasteBites </a>
+    
+        <nav class="navbar">
+            <a href="main.html">home</a>
+            <!--
+            <a href="#features">features</a>
+            -->
+            <a href="products.html">products</a>
+            <a href="categories.html">categories</a>
+            <a href="review.html">about us</a>
+            <a href="blogs.html">blogs</a>
+        </nav>
+    
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash delete-item-from-cart"></i>
+                <img src="img/Matar-Paneer-1.jpg" alt="">
+                <div class="content">
+                    <h3>Matar paneer</h3>
+                    <span class="price cart-price"> &#8377 60</span>
+                    <span class="quantity">qty : <input type="number" min="1" class="form-control cart-quantity"> kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash delete-item-from-cart"></i>
+                <img src="img/ladyfinger.webp" alt="">
+                <div class="content">
+                    <h3> Fried - Bhindi</h3>
+                    <span class="price cart-price"> &#8377 40</span>
+                    <span class="quantity">qty : <input type="number" min="1" class="cart-quantity"> kg</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash delete-item-from-cart"></i>
+                <img src="img/pneer.jpg" alt="">
+                <div class="content">
+                    <h3>paneer</h3>
+                    <span class="price cart-price"> &#8377 150</span>
+                    <span class="quantity">qty : <input type="number" min="1" class="cart-quantity"> kg</span>
+                </div>
+            </div>
+            <!-- <div class="total"> total :  <span class="total-price">Loading..</span> </div> -->
+            <a href="#" class="btn">checkout</a>
+        </div>
+    
+        
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="index.html" target="_blank">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+        
+    
+    </header>
+        
+<section class="blogs" id="blogs">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Fresh and organic vegitables and fruits at low prices</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/blog-2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Fresh and organic vegitables and fruits at low prices</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/blog-3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Fresh and organic vegitables and fruits at low prices.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
